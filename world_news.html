@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/948ed0cd2d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <title>WORLD NEWS</title>
 </head>
 <body>
-    
+    <header class="header">
+        <a class="header__logo" href="index.html">LOGO</a>
+        <div class="burger__menu"><i class="fa-solid fa-bars"></i></div>
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="header__active__page" href="world_news.html">WORLD NEWS</a></li>
+                <li><a href="#">PHOTOS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wnews__top__container">
+        <section class="wnews__left__section">
+            <figure class="wnews__left__section_figure">
+                <figcaption class="wnews__left__section_figcaption">WORLD NEWS</figcaption>
+            </figure>
+        </section>
+        <div class="wnews__right__section">
+            <div class="wnews__right__section">
+                    <form action="#" method="get">
+                        <div class="wnews_input">
+                            <label for="date">Select a date</label>
+                            <input class="typebox" type="datetime-local" name="date" id="date"  >
+                        </div>  
+                        <div class="wnews_input">
+                            <label for="key word">Enter the first keyword</label>
+                            <input class="typebox" type="text" id="name" name="key word"    >
+                        </div>
+                        <input class="search_button" type="submit" value="Search"> 
+                    </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        config = {
+            enableTime: true,
+            dateFormat: "Y-m-d H:I",
+            altInput: true,
+            altFormat: "F j, Y (h:S K)"
+
+        }
+
+        flatpickr("input[type=datetime-local]", config );
+    </script>
 </body>
 </html>
