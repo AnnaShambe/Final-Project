@@ -608,10 +608,23 @@ body{
     color: #CBD0D3;
 }
 
+.footer__navigation__page{
+    color: #CBD0D3;
+}
+
+.footer__navigation__page:hover{
+    color: #CBD0D3;
+    border-bottom: 2px solid #FA6980;
+}
+
 .footer__navigation__home{
     font-weight: 700;
     font-size: 0.813rem;
     color: #CBD0D3;
+}
+
+.footer__navigation__home:hover{
+    border-bottom: 2px solid #FA6980
 }
 
 .footer__navigation__list{
