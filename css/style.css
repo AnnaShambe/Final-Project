@@ -30,7 +30,6 @@ body{
     display: flex;
     justify-content: space-between;
     background: #F6F8F9;
-
 }
 
 .header__logo{
@@ -146,7 +145,6 @@ body{
     font-weight: 400;
     font-size: 1rem;
     margin: 10px 0 30px 140px;
-
 }
 
 .left__section__button{
@@ -157,14 +155,12 @@ body{
     font-weight: 400;
     font-size: 0.688rem;
     color: white;
-
 }
 
 .left__section__button_link{
     display: block;
     color: white;
     padding: 15px 30px 15px 30px;
-
 }
 
 /* styling right section */
@@ -391,13 +387,12 @@ body{
 }
 
 .bottom__container{
-    max-width: 80.5%;
+    max-width: 80%;
     max-height: 37.5%;
     margin: 0 auto;
-    border-left: 2px solid #707070;
-    padding-left: 48.4px;
+    border-left: 2px solid #707070; 
+    padding-left: 48.5px;
     margin-bottom: 100px;
-
 }
 
 .bottom__container__section{
@@ -429,7 +424,6 @@ body{
     z-index: -1;
     width: 100%;
     height: 363.5px;
-
 }
 
 .top__content__subtatle{
@@ -476,7 +470,6 @@ body{
     z-index: -1;
     width: 100%;
     height: 362.5px;
-
 }
 
 .bottom__content__subtatle{
@@ -569,9 +562,56 @@ body{
 /* styling footer */
 
 .footer{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 13.9%;
-    border: 2px solid rgb(141, 189, 89);
+    height: 200px;
+    /* height: 8.3%; */
+    background-color: #A6ADB4;
+}
 
+.footer__logo{
+    width: 3%;
+    height: 2%;
+    margin-top: 55px;
+    margin-left: 190.5px;
+    font-weight: 700;
+    font-size: 0.813rem;
+    color: #FFFFFF;
+}
 
+.footer__navigation{
+    margin-top: 53px;
+    margin-bottom: 61px;
+    margin-right: 475px;
+    width: 25%;
+    font-weight: 700;
+    font-size: 0.813rem;
+    color: #CBD0D3;
+}
+
+.footer__navigation__home{
+    font-weight: 700;
+    font-size: 0.813rem;
+    color: #CBD0D3;
+}
+
+.footer__navigation__list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    line-height: 20px
+}
+
+.footer__socialmedia__icons{
+    margin-top: 55px;
+    margin-right: 135.8px;
+    width: 9%;
+    height: 2%;
+    display: flex;
+    justify-content: space-between;
 }
