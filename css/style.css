@@ -898,3 +898,166 @@
     height: 200px;
     background-color: #A6ADB4;
 }
+
+
+/* tablet responsive */
+
+
+@media screen and (max-width: 768px){
+
+    .home__page__container{
+        max-width: 768px;
+        margin: 0 auto;
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: #F6F8F9;
+        z-index: 0;
+    }
+
+    .home__page__header{
+        display: none;
+        margin-top: 0;
+        position: fixed;
+        z-index: 10;
+        max-width: 768px; 
+        height: 51px;
+        background: #F6F8F9;
+    }
+
+    .header__navigation{
+        margin-right: 20px;
+        width: 40%;
+    }
+
+    .header__navigation__list{
+        width: 100%;
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    .top__container{
+        border: 2px solid green;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .top__container__left_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid green;
+        width: 100%;
+        height: 50%;
+    }
+
+    .left__section__title{
+        align-items: center;
+        padding: 0;
+        width: 90%;
+        height: 13%;
+        margin: 0;
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+    .left__section__main_text{
+        padding: 0;
+        margin: 0;
+    }
+
+    .left__section__text{
+        margin: 0;
+    }
+
+    .left__section__button{
+        margin: 0;
+    }
+
+    .top__container__right_section{
+        border: 2px solid green;
+        width: 100%;
+        height: 50%;
+    }
+
+    .right__section__title{
+        width: 90%;
+        border: 2px solid magenta;
+        padding: 0;
+        margin: 0;
+        border-bottom: 2px solid #EBEDED;
+    }
+
+    .right__section__top_article{
+        margin: 0;
+    }
+
+    .top__article__title{
+        padding: 0;
+    }
+
+    .top__article__subtitle{
+        padding: 0;
+    }
+
+    .top__article__date{
+        padding: 0;
+    }
+
+    .right__section__bottom_article{
+        padding: 0;
+        margin: 0;
+    }
+
+    .bottom__article__title{
+        padding: 0;
+    }
+
+    .bottom__article__subtitle{
+        padding: 0;
+    }
+
+    .bottom__article__date{
+        padding: 0;
+    }
+
+
+
+    .home__page__footer{
+        border: 2px solid magenta;
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer__logo{
+        margin: 58px 68px 0 85px;
+        border: 2px solid cyan;
+        width: 5.5%;
+        height: 8%;
+    }
+
+    .footer__navigation{
+        margin: 0;
+    }
+
+    .footer__navigation__list{
+        border: 2px solid rgb(156, 220, 17);
+        width: 150%;
+        height: 50%;
+    }
+
+    .socialmedia__icons__style{
+        border: 2px solid yellow;
+
+
+        
+    }
+
+    .footer__socialmedia__icons{
+        border: 2px solid black;
+        margin: 0;
+        width: 18%;
+        height: 12%;
+
+    }
+}
+
+
+    
