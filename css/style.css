@@ -155,6 +155,11 @@ body{
     font-weight: 400;
     font-size: 0.688rem;
     color: white;
+    transition: all .2s ease-in-out;
+}
+
+.left__section__button:hover{
+    transform: scale(1.1);
 }
 
 .left__section__button_link{
