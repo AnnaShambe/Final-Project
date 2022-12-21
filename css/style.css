@@ -244,6 +244,10 @@
     padding: 10px 0 39px 0;
 }
 
+.fa-clock{
+    padding-right: 10px;
+}
+
 .right__section__bottom_article{
     max-width: 380px;
     margin-left: 100px;
